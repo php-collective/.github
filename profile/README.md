@@ -11,7 +11,7 @@ We are a collective of PHP developers focused on creating well-tested, standards
 - **[awesome-php-sniffers](https://github.com/php-collective/awesome-php-sniffers)** - Curated list of PHP code sniffers and fixers
 
 ### Djot Markup
-- **[djot-php](https://github.com/php-collective/djot-php)** - PHP parser for Djot markup language
+- **[djot-php](https://github.com/php-collective/djot-php)** - PHP parser for Djot markup language (modern markdown/commonmark alternative/successor)
 - **[wp-djot](https://github.com/php-collective/wp-djot)** - Djot integration for WordPress
 
 ### Libraries
