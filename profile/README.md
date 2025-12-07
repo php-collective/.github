@@ -12,6 +12,7 @@ We are a collective of PHP developers focused on creating well-tested, standards
 
 ### Djot Markup
 - **[djot-php](https://github.com/php-collective/djot-php)** - PHP parser for Djot markup language (modern markdown/commonmark alternative/successor)
+- **[djot-intellij](https://github.com/php-collective/djot-intellij)** - Djot syntax highlighting for JetBrains IDEs (PhpStorm, IntelliJ IDEA, WebStorm)
 - **[wp-djot](https://github.com/php-collective/wp-djot)** - Djot integration for WordPress
 
 ### Libraries
