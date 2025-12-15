@@ -16,6 +16,7 @@ We are a collective of PHP developers focused on creating well-tested, standards
 - **[wp-djot](https://github.com/php-collective/wp-djot)** - Djot integration for WordPress
 
 ### Libraries
+- **[dto](https://github.com/php-collective/dto)** - Framework-agnostic DTO library using code generation instead of runtime reflection (20-50x faster than all others).
 - **[decimal-object](https://github.com/php-collective/decimal-object)** - Decimal handling as value objects instead of floats
 - **[file-storage](https://github.com/php-collective/file-storage)** - Agnostic file storage with Flysystem integration
 
