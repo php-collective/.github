@@ -21,8 +21,8 @@ Djot is a modern light markup language (markdown/commonmark alternative/successo
 Framework-agnostic Data Transfer Objects using code generation instead of runtime reflection (20-50x faster than all others).
 
 - **[dto](https://github.com/php-collective/dto)** - Framework-agnostic DTO library
-- **[cakephp-dto](https://github.com/php-collective/dto)** - CakePHP integration (legacy repo, BC, also contains own templating etc)
-- **[laravel-dto](https://github.com/php-collective/dto)** - Laravel integration (saves a few lines of config)
+- **[cakephp-dto](https://github.com/dereuromark/cakephp-dto)** - CakePHP integration (legacy repo, BC, also contains own templating etc)
+- **[laravel-dto](https://github.com/php-collective/laravel-dto)** - Laravel integration (saves a few lines of config)
 - **[symfony-dto](https://github.com/php-collective/symfony-dto)** - Symfony wrapper (saves a few lines of config)
 
 ### Libraries
