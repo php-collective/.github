@@ -1,0 +1,62 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default Renovate config for php-collective packages",
+  "extends": [
+    "config:recommended",
+    ":semanticCommits",
+    ":maintainLockFilesWeekly",
+    "schedule:weekdays"
+  ],
+  "labels": ["dependencies"],
+  "prHourlyLimit": 3,
+  "prConcurrentLimit": 5,
+  "minimumReleaseAge": "3 days",
+  "composer": {
+    "enabled": true,
+    "rangeStrategy": "widen"
+  },
+  "packageRules": [
+    {
+      "description": "Group dev dependencies",
+      "matchDepTypes": ["require-dev"],
+      "groupName": "dev dependencies",
+      "groupSlug": "dev-deps"
+    },
+    {
+      "description": "Group PHPUnit ecosystem",
+      "matchPackagePatterns": ["^phpunit/", "^sebastian/"],
+      "groupName": "phpunit",
+      "groupSlug": "phpunit"
+    },
+    {
+      "description": "Group PHPStan ecosystem",
+      "matchPackagePatterns": ["^phpstan/"],
+      "groupName": "phpstan",
+      "groupSlug": "phpstan"
+    },
+    {
+      "description": "Group GitHub Actions",
+      "matchManagers": ["github-actions"],
+      "groupName": "github-actions",
+      "groupSlug": "gha"
+    },
+    {
+      "description": "Automerge patch updates for dev deps",
+      "matchDepTypes": ["require-dev"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
+      "description": "Automerge GitHub Actions minor/patch",
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "description": "Pin PHP version in CI",
+      "matchPackageNames": ["php"],
+      "enabled": false
+    }
+  ]
+}
