@@ -16,6 +16,7 @@ Djot is a modern light markup language (markdown/commonmark alternative/successo
 - **[djot-php](https://github.com/php-collective/djot-php)** - PHP parser for Djot markup language
 - **[djot-intellij](https://github.com/php-collective/djot-intellij)** - Djot syntax highlighting for JetBrains IDEs (PhpStorm, IntelliJ IDEA, WebStorm)
 - **[wp-djot](https://github.com/php-collective/wp-djot)** - Djot integration for WordPress
+- **[djot-grammars](https://github.com/php-collective/djot-grammars)** - Syntax highlighting grammars for Djot markup language (VS Code, TextMate, etc.)
 
 ### DTO
 Framework-agnostic Data Transfer Objects using code generation instead of runtime reflection (20-50x faster than all others).
