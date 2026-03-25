@@ -29,6 +29,7 @@ Framework-agnostic Data Transfer Objects using code generation instead of runtim
 ### Libraries
 - **[decimal-object](https://github.com/php-collective/decimal-object)** - Decimal handling as value objects instead of floats
 - **[file-storage](https://github.com/php-collective/file-storage)** - Agnostic file storage with Flysystem integration
+- **[toml](https://github.com/php-collective/toml)** - PHP library for encoding and decoding TOML
 
 ### Research
 - **[framework-comparison](https://github.com/php-collective/framework-comparison)** - Metrics comparison of PHP frameworks
