@@ -14,8 +14,10 @@ We are a collective of PHP developers focused on creating well-tested, standards
 Djot is a modern light markup language (markdown/commonmark alternative/successor)
 
 - **[djot-php](https://github.com/php-collective/djot-php)** - PHP parser for Djot markup language
-- **[djot-intellij](https://github.com/php-collective/djot-intellij)** - Djot syntax highlighting for JetBrains IDEs (PhpStorm, IntelliJ IDEA, WebStorm)
+- **[symfony-djot](https://github.com/php-collective/symfony-djot)** - Djot integration for Symfony (Twig filters, services, forms, validation, caching)
+- **[laravel-djot](https://github.com/php-collective/laravel-djot)** - Djot integration for Laravel (Blade directives, services, validation, caching)
 - **[wp-djot](https://github.com/php-collective/wp-djot)** - Djot integration for WordPress
+- **[djot-intellij](https://github.com/php-collective/djot-intellij)** - Djot syntax highlighting for JetBrains IDEs (PhpStorm, IntelliJ IDEA, WebStorm)
 - **[djot-grammars](https://github.com/php-collective/djot-grammars)** - Syntax highlighting grammars for Djot markup language (VS Code, TextMate, etc.)
 
 ### DTO
